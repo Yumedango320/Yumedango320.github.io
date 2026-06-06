@@ -19,7 +19,12 @@ body {
   margin: 0;
   padding: 30px;
   color: #6FD1D7;
-}
+        
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffffff; 
+  }
 
 /* --------------------
         見出し
