@@ -18,7 +18,7 @@ html, body {
 body {
   margin: 0;
   padding: 30px;
-  color: #5DF8D8;
+  color: #6FD1D7;
 }
 
 /* --------------------
@@ -65,13 +65,13 @@ tr {
   background-color: #093C5D;
 }
 tr:nth-child(2n) {
-  background-color: #f9f9f9;
+  background-color: #EAEFEF;
 }
 th {
   background: var(--theme-color);
   color: #093C5D;
 }
 th, td {
-  border: solid 1px #f0f0f0;
+  border: solid 1px ##093C5D;
   padding: 0.5rem;
 }
