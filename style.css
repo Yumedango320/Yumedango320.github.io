@@ -3,7 +3,7 @@
 -------------------- */
 
 :root {
-  --theme-color: #1a73e8;
+  --theme-color: #093C5D;
 }
 
 * {
@@ -18,7 +18,7 @@ html, body {
 body {
   margin: 0;
   padding: 30px;
-  color: #a8dadc;
+  color: #5DF8D8;
 }
 
 /* --------------------
@@ -62,14 +62,14 @@ table {
   min-width: 70%;
 }
 tr {
-  background-color: #fff;
+  background-color: #093C5D;
 }
 tr:nth-child(2n) {
   background-color: #f9f9f9;
 }
 th {
   background: var(--theme-color);
-  color: #fff;
+  color: #093C5D;
 }
 th, td {
   border: solid 1px #f0f0f0;
