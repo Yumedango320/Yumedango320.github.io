@@ -21,6 +21,10 @@ body {
   color: #00a2ff;
 }
 
+.gradation {
+  background-image: linear-gradient(336deg, #24f2deb5, #5e8ff7);
+}
+
 /* --------------------
         見出し
 -------------------- */
