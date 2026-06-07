@@ -24,9 +24,7 @@ body {
 body {
   margin: 0;
   padding: 30px;
-  color: #333333;
-  background: linear-gradient(to bottom, #e6f2ff, #cce6ff);
-}
+  background: #e6f2ff;
 
 /* --------------------
         見出し
