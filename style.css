@@ -3,7 +3,7 @@
 -------------------- */
 
 :root {
-  --theme-color: #0066cc;
+  --theme-color: #121358;
 }
 
 * {
@@ -18,8 +18,34 @@ html, body {
 body {
   margin: 0;
   padding: 30px;
-  color: #121358;
+  color: #232F72;
 }
+
+/* 写真と文章を入れた大きな箱を横並び（Flexbox）にする設定 */
+.main-content {
+  display: flex;       /* これで中身が横並びになる */
+  gap: 30px;           /* 写真と文章の間のすき間 */
+  align-items: flex-start; /* 上揃えにする */
+  margin-bottom: 20px;
+}
+
+/* 左側の写真が入る箱の幅 */
+.left-box {
+  flex: 0 0 200px;     /* 写真の幅を200pxに固定 */
+}
+
+/* 右側の文章が入る箱 */
+.right-box {
+  flex: 1;             /* 残りの横幅を全部使う */
+}
+
+/* 写真がはみ出さないようにするおまじない */
+.left-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;  /* ついでに角をちょっと丸くすると可愛い */
+}
+
 /* --------------------
         見出し
 -------------------- */
