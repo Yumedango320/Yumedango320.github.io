@@ -50,23 +50,3 @@ li:before {
   content: "★";
   color: var(--theme-color);
 }
-
-/* --------------------
-          表
--------------------- */
-
-
-tr {
-  background-color: #093C5D;
-}
-tr:nth-child(2n) {
-  background-color: #EAEFEF;
-}
-th {
-  background: var(--theme-color);
-  color: #093C5D;
-}
-th, td {
-  border: solid 1px #093C5D;
-  padding: 0.5rem;
-}
