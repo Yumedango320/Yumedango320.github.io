@@ -3,7 +3,7 @@
 -------------------- */
 
 :root {
-  --theme-color: #00a0a0;
+  --theme-color: #0066cc;
 }
 
 * {
@@ -18,7 +18,7 @@ html, body {
 body {
   margin: 0;
   padding: 30px;
-  color: #333;
+  color: #333333;
 }
 
 /* --------------------
@@ -57,16 +57,16 @@ li:before {
 
 
 tr {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 tr:nth-child(2n) {
-  background-color: #f9f9f9;
+  background-color: #f2f7fc;
 }
 th {
   background: var(--theme-color);
-  color: #fff;
+  color: #ffffff;
 }
 th, td {
-  border: solid 1px #f0f0f0;
+  border: solid 1px #d0e0f0;
   padding: 0.5rem;
 }
